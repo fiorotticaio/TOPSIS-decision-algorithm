@@ -1,28 +1,29 @@
 # README
 
-## Descrição dos Arquivos CSV
+## Description of CSV Files
 
-Este repositório contém três arquivos CSV que são usados como parâmetros para o programa `main.py`. A seguir, uma descrição detalhada de cada arquivo:
+This repository contains three CSV files that are used as parameters for the `main.py` program. Below is a detailed description of each file:
 
 ### matrix_d.csv
 
-Cada linha deste arquivo representa uma opção. Cada coluna representa os parâmetros dessa opção em relação aos critérios. Os valores são separados por vírgulas.
+Each line of this file represents an option. Each column represents the parameters of this option in relation to the criteria. The values are separated by commas.
 
 ### weights.csv
 
-Cada linha deste arquivo contém a importância de cada parâmetro para o usuário, expressa em porcentagem, e se esse parâmetro é do tipo "quanto mais, melhor" (1) ou "quanto menos, melhor" (0). Os valores são separados por vírgulas.
+Each line of this file contains the importance of each parameter to the user, expressed in percentage, and whether this parameter is of the type "the more, the better" (1) or "the less, the better" (0). The values are separated by commas.
 
 ### options.csv
 
-Este arquivo contém o nome de cada uma das opções. Esses nomes serão usados para plotar as opções no gráfico final.
+This file contains the name of each of the options. These names will be used to plot the options on the final chart.
 
-## Como Usar
+## How to Use
 
-1. Certifique-se de que os arquivos CSV estão no mesmo diretório que o arquivo `main.py`.
-2. Execute o arquivo `main.py`.
-3. O programa usará os dados dos arquivos CSV para calcular e plotar um gráfico com as opções.
+1. Make sure the CSV files are in the same directory as the `main.py` file.
+2. Run the `main.py` file.
+3. The program will use the data from the CSV files to calculate and plot a chart with the options.
 
-## Exemplo de Uso
+## Example of Use
 
 ```bash
 python main.py
+```
